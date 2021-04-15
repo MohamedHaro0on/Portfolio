@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.206fba83.chunk.css",
-    "main.js": "/portfolio/static/js/main.8aa57083.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8aa57083.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.f37f8024.chunk.js": "/portfolio/static/js/2.f37f8024.chunk.js",
-    "static/js/2.f37f8024.chunk.js.map": "/portfolio/static/js/2.f37f8024.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.bb89c64e.chunk.css",
+    "main.js": "/portfolio/static/js/main.bdfbb1d4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bdfbb1d4.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.1be40953.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.1be40953.js.map",
+    "static/js/2.1d0dba04.chunk.js": "/portfolio/static/js/2.1d0dba04.chunk.js",
+    "static/js/2.1d0dba04.chunk.js.map": "/portfolio/static/js/2.1d0dba04.chunk.js.map",
+    "static/js/3.926ebb7d.chunk.js": "/portfolio/static/js/3.926ebb7d.chunk.js",
+    "static/js/3.926ebb7d.chunk.js.map": "/portfolio/static/js/3.926ebb7d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9d25494d0b48b0c36ef970b912ae27a6.js": "/portfolio/precache-manifest.9d25494d0b48b0c36ef970b912ae27a6.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.206fba83.chunk.css.map": "/portfolio/static/css/main.206fba83.chunk.css.map",
-    "static/js/2.f37f8024.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f37f8024.chunk.js.LICENSE.txt",
-    "static/media/Covid19.png": "/portfolio/static/media/Covid19.38f16cd7.png",
-    "static/media/Emojies.png": "/portfolio/static/media/Emojies.ceddca48.png",
-    "static/media/TodoApp.png": "/portfolio/static/media/TodoApp.d27f118d.png",
-    "static/media/profileImage.jpg": "/portfolio/static/media/profileImage.36c35749.jpg"
+    "static/css/main.bb89c64e.chunk.css.map": "/portfolio/static/css/main.bb89c64e.chunk.css.map",
+    "static/js/2.1d0dba04.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1d0dba04.chunk.js.LICENSE.txt",
+    "static/media/Covid19.136423b4.png": "/portfolio/static/media/Covid19.136423b4.png",
+    "static/media/Emojies.3fa6f763.png": "/portfolio/static/media/Emojies.3fa6f763.png",
+    "static/media/TodoApp.967fa29f.png": "/portfolio/static/media/TodoApp.967fa29f.png",
+    "static/media/profileImage.1b6f4283.jpg": "/portfolio/static/media/profileImage.1b6f4283.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.f37f8024.chunk.js",
-    "static/css/main.206fba83.chunk.css",
-    "static/js/main.8aa57083.chunk.js"
+    "static/js/runtime-main.1be40953.js",
+    "static/js/2.1d0dba04.chunk.js",
+    "static/css/main.bb89c64e.chunk.css",
+    "static/js/main.bdfbb1d4.chunk.js"
   ]
 }
