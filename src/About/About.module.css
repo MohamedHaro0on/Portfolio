@@ -1,0 +1,23 @@
+.AboutMe {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.AboutMe figure{
+  margin:0px;
+  line-height:35px ;
+}
+.AboutMe img {
+  border-radius: 50%;
+  object-fit: contain;
+  height:100%;
+}
+
+.Description p {
+  margin-bottom: 20px;
+}
+@media only screen and (max-width:787px) {
+  .AboutMe{
+    text-align:center;
+  }
+}

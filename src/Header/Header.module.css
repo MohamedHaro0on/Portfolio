@@ -1,0 +1,36 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    gap: 20px;
+    font-size: 1rem;
+    flex-wrap: wrap;
+}
+.Header .MainTitle {
+    flex: 4;
+}
+.Header .MainTitle h1{
+    font-size:1.5rem;
+}
+.Header .ListContainer {
+    flex: 1.5;
+}
+.Header .SocialMediaIcons {
+    display: flex;
+    padding: 0px 10px;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: #fff;
+}
+
+@media only screen and (max-width: 708px) {
+    .Header {
+        display: block;
+        text-align: center;
+    }
+    .Header .SocialMediaIcons {
+        justify-content: space-evenly;
+    }
+}

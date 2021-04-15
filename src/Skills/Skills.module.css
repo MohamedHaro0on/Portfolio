@@ -1,0 +1,11 @@
+.SkillsList , .LanguagesList{
+    flex-wrap: wrap ;
+    display:flex ;
+    list-style:none ;
+}
+.LanguagesList{
+    justify-content: space-around;
+}
+.SkillsList{
+    justify-content: center;
+}

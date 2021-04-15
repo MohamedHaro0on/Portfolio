@@ -1,0 +1,37 @@
+.Footer {
+  text-align: center;
+  font-size: 1rem;
+}
+.Footer p {
+  width: 60%;
+  margin: auto;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+address{
+  margin-top: 20px;
+}
+.Footer p:first-child {
+  margin-bottom: 30px;
+}
+.Footer a:last-child {
+  text-decoration: underline;
+}
+.Footer .Btn {
+  border-radius: 5px;
+  padding: 10px;
+  border: dashed 2px #fff;
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+@media only screen and (max-width: 786px) {
+  .Footer p {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 544px) {
+  .Footer p {
+    width: 90%;
+  }
+}

@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.css';
+import Header from "./Header/Header.jsx";
+import Practiles from "react-particles-js"
+import About from './About/About';
+import Education from './Education/Education';
+import Experience from './Experience/Experience';
+import Projects from './Projects/Projects';
+import Skills from './Skills/Skills';
+import Footer from './Footer/Footer';
 
-function App() {
+const App = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const windowHeight = "1400px";
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    }
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Practiles width={windowWidth} height={windowHeight} />
+      <div className="App">
+        <Header />
+        <main>
+          <About />
+          <Education />
+          <Experience />
+          <Projects />
+          <Skills />
+          <Footer />
+        </main>
+      </div>
     </div>
+
   );
 }
 
