@@ -15,7 +15,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="send a message to mohamed haroon"
-                className={ClassNames.Btn}> Say Hello</a>
+                className={ClassNames.Btn}> Contact Me</a>
             <address>
                 <a
                     href="mailto:mohamedharoon286@gmail.com"
