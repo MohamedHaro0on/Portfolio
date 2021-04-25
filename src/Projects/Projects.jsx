@@ -8,15 +8,14 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const Projects = () => {
     return (
-        <section className={ClassNames.Projects}>
+        <section >
             <Title> Projects</Title>
-            {Data.map(({ name, repoUrl, liveUrl, description, img }, index) => {
-                return (
-                    <article key={index} className={ClassNames.SingleProject} dir={index % 2 === 0 ? "rtl" : "ltr"}>
-                        <div className={ClassNames.ImageContainer}>
+            <div className={ClassNames.Projects}>
+                {Data.map(({ name, repoUrl, liveUrl, img }, index) => {
+                    return (
+                        <article key={index} className={ClassNames.Project}>
                             <img src={img} title={name} alt={name} aria-label={`image of ${name} web application`} />
-                            <div className={ClassNames.DesriptionContainer} dir={"ltr"}>
-                                <h4>Personal Project</h4>
+                            <footer className={ClassNames.Title}>
                                 <p className={ClassNames.ProjectName}>
                                     <strong>{name}</strong>
                                     <span>
@@ -24,13 +23,11 @@ const Projects = () => {
                                         <a href={repoUrl} target="_blank" rel="noopener noreferrer" aria-label={`to ${name} repo`}><AiFillGithub /></a>
                                     </span>
                                 </p>
-                                <p>{description}</p>
-                            </div>
-                        </div>
-
-                    </article>
-                )
-            })}
+                            </footer>
+                        </article>
+                    )
+                })}
+            </div>
         </section>
     )
 }
