@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4bfb667d.chunk.css",
-    "main.js": "/portfolio/static/js/main.5c161317.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5c161317.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.66c7c3a7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.66c7c3a7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.1be40953.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.1be40953.js.map",
     "static/js/2.9f3befb0.chunk.js": "/portfolio/static/js/2.9f3befb0.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/Menus.1ec8b5ef.png": "/portfolio/static/media/Menus.1ec8b5ef.png",
     "static/media/Reviews.cfe258c3.png": "/portfolio/static/media/Reviews.cfe258c3.png",
     "static/media/Sidebar and Moda.5cf3dea5.png": "/portfolio/static/media/Sidebar and Moda.5cf3dea5.png",
-    "static/media/Slider.cfe258c3.png": "/portfolio/static/media/Slider.cfe258c3.png",
+    "static/media/Slider.cd7b4253.png": "/portfolio/static/media/Slider.cd7b4253.png",
     "static/media/SnapShot.56cae180.png": "/portfolio/static/media/SnapShot.56cae180.png",
     "static/media/StripMenus.de13995d.png": "/portfolio/static/media/StripMenus.de13995d.png",
     "static/media/Tabs.a721416c.png": "/portfolio/static/media/Tabs.a721416c.png",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.1be40953.js",
     "static/js/2.9f3befb0.chunk.js",
     "static/css/main.4bfb667d.chunk.css",
-    "static/js/main.5c161317.chunk.js"
+    "static/js/main.66c7c3a7.chunk.js"
   ]
 }
